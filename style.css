@@ -1,18 +1,33 @@
 /* Esse projeto foi feito com orientação por meio de video-aula */
 body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+
+    background-color: white;
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.stage{
+    border: 1px solid;
+    height: 31rem;
+    width: 29rem;
+    background-color: #558776;
+    border-radius: 20px;
+}
+
 .square{
     width: 100px;
     height: 100px;
-    background-color: beige;
-    border: 1px solid gray;
+    background-color: #F55353;
+    border: 2px solid #4700D8;
     display: inline-block;
+    cursor: pointer;
 }
 
 .o{
@@ -46,8 +61,11 @@ h1{
 }
 
 button{
-    margin-top: 15px;
+    height: 2.3rem;
+    width: 14rem;
+    margin-top: 25px;
     padding: 5px 15px;
     border-radius: 5px;
     border: 1px solid gray;
+    cursor: pointer;
 }
